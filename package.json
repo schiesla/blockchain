@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "yarn": "^1.22.19"
+  },
+  "name": "blockchain",
+  "version": "1.0.0",
+  "description": "exploring blockchain following frontend masters course",
+  "main": "index.js",
+  "author": "Logan Schiessle <schizzla27@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "hardhat": "^2.9.9"
+  }
+}
