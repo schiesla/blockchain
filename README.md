@@ -32,10 +32,10 @@ Exploring blockchain by following a frontend masters course.
 
 ### SCOPES:
 +------------+------------+-------------+--------------+--------------+<br />
-|            |   public   |   private   |   internal   |   external   |<br />
+|      _     |   public   |   private   |   internal   |   external   |<br />
 +------------+------------+-------------+--------------+--------------+<br />
 |  Contract  |    yes     |     yes     |     yes      |      no      |<br />
-|  can call  |            |             |              |              |<br />
+|  can call  |     _      |             |              |              |<br />
 +------------+------------+-------------+--------------+--------------+<br />
 | SubContract|    yes     |     no      |     yes      |      no      |<br />
 |  can call  |            |             |              |              |<br />
