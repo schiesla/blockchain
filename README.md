@@ -16,7 +16,7 @@ Exploring blockchain by following a frontend masters course.
 
 # Hardhat commands:
 1. `npx hardhat compile` - compile contracts
-2. `npx hardhat test` - run the tests (run the 3 commands above if this doesn't work right away)
+2. `npx hardhat test` - run the tests (run the 3 commands above if this doesn't work right)
 3. `npx hardhat run scripts/<the_script_to_run> --network <network_to_run_on>` - run a script on a specified network
 4. `npx hardhat node` - sets up a locally hosted node on your network with accounts and ETH balance
 
@@ -31,28 +31,17 @@ Exploring blockchain by following a frontend masters course.
     - `pure`: cannot read or write state on the contract.
 
 ### SCOPES:
-+------------+------------+-------------+--------------+--------------+
-
-|            |   public   |   private   |   internal   |   external   |
-
-+------------+------------+-------------+--------------+--------------+
-
-|  Contract  |    yes     |     yes     |     yes      |      no      |
-
-|  can call  |            |             |              |              |
-
-+------------+------------+-------------+--------------+--------------+
-
-| SubContract|    yes     |     no      |     yes      |      no      |
-
-|  can call  |            |             |              |              |
-
-+------------+------------+-------------+--------------+--------------+
-
-|  Outside   |    yes     |     no      |     no       |      yes     |
-
-|  can call  |            |             |              |              |
-
++------------+------------+-------------+--------------+--------------+<br />
+|            |   public   |   private   |   internal   |   external   |<br />
++------------+------------+-------------+--------------+--------------+<br />
+|  Contract  |    yes     |     yes     |     yes      |      no      |<br />
+|  can call  |            |             |              |              |<br />
++------------+------------+-------------+--------------+--------------+<br />
+| SubContract|    yes     |     no      |     yes      |      no      |<br />
+|  can call  |            |             |              |              |<br />
++------------+------------+-------------+--------------+--------------+<br />
+|  Outside   |    yes     |     no      |     no       |      yes     |<br />
+|  can call  |            |             |              |              |<br />
 +------------+------------+-------------+--------------+--------------+
 
 ### BigNumbers?
