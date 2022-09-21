@@ -14,12 +14,11 @@ Exploring blockchain by following a frontend masters course.
 2. `yarn add -D ts-node typescript`
 3. `yarn add -D ts-node typescript`
 
-# Hardhat commands
+# Hardhat commands:
 1. `npx hardhat compile` - compile contracts
-2. `npx hardhat test` - run the tests
+2. `npx hardhat test` - run the tests (run the 3 commands above if this doesn't work right away)
 3. `npx hardhat run scripts/<the_script_to_run> --network <network_to_run_on>` - run a script on a specified network
 4. `npx hardhat node` - sets up a locally hosted node on your network with accounts and ETH balance
-
 
 
 ### NOTES:
@@ -33,14 +32,18 @@ Exploring blockchain by following a frontend masters course.
 
 ### SCOPES:
 +------------+------------+-------------+--------------+--------------+
+
 |            |   public   |   private   |   internal   |   external   |
 +------------+------------+-------------+--------------+--------------+
+
 |  Contract  |    yes     |     yes     |     yes      |      no      |
 |  can call  |            |             |              |              |
 +------------+------------+-------------+--------------+--------------+
+
 | SubContract|    yes     |     no      |     yes      |      no      |
 |  can call  |            |             |              |              |
 +------------+------------+-------------+--------------+--------------+
+
 |  Outside   |    yes     |     no      |     no       |      yes     |
 |  can call  |            |             |              |              |
 +------------+------------+-------------+--------------+--------------+
