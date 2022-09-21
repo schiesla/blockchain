@@ -31,18 +31,20 @@ Exploring blockchain by following a frontend masters course.
     - `pure`: cannot read or write state on the contract.
 
 ### SCOPES:
+<pre>
 +------------+------------+-------------+--------------+--------------+<br />
-|____________|   public   |   private   |   internal   |   external   |<br />
+|            |   public   |   private   |   internal   |   external   |<br />
 +------------+------------+-------------+--------------+--------------+<br />
 |  Contract  |    yes     |     yes     |     yes      |      no      |<br />
-|  can call  |____________|_____________|______________|______________|<br />
+|  can call  |            |             |              |              |<br />
 +------------+------------+-------------+--------------+--------------+<br />
 | SubContract|    yes     |     no      |     yes      |      no      |<br />
-|  can call  |____________|____________ |______________|______________|<br />
+|  can call  |            |             |              |              |<br />
 +------------+------------+-------------+--------------+--------------+<br />
 |  Outside   |    yes     |     no      |     no       |      yes     |<br />
-|  can call  |____________|____________ |______________|______________|<br />
+|  can call  |            |             |              |              |<br />
 +------------+------------+-------------+--------------+--------------+
+</pre>
 
 ### BigNumbers?
 - js cannot handle some of the larger numbers eth requires, so it prints out type BigNumber. If you specify a smaller return type like `unit32` it will
